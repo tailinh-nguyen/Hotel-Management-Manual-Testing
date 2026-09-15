@@ -1,58 +1,80 @@
-# 🏨 Hotel Management System - Manual Testing
+# 🏨 Hotel Management Online – Manual Testing
 
-A comprehensive **Manual Software Testing** project conducted on the **Hotel Management System**. This project covers the end-to-end Quality Assurance (QA) lifecycle, including test planning, test case design, execution, bug tracking, and test reporting to ensure the system meets high standards of functional reliability, usability, and data integrity.
+A Manual Software Testing project conducted on the Hotel Management Online web application. The project focused on requirement analysis, test case design, test execution, bug reporting, retesting, regression testing, and test reporting based on the Software Requirements Specification (SRS).
 
 ---
 
 ## 📖 Project Overview
 
-The **Hotel Management System** is an enterprise solution designed to streamline hotel operations such as room management, reservation, guest check-in/check-out, and billing services. 
+Hotel Management Online is a web application that supports hotel-related operations, including user registration and login, room searching, room details, booking, payment, and booking cancellation.
 
-The primary objective of this testing project is to thoroughly validate the application's business flows, identify system defects early, and verify that all system functionalities comply with the specified business requirements (SRS).
+The main objective of this testing project was to verify that the system functions according to the specified requirements and business rules, identify bugs, and evaluate the overall quality of the application.
 
 ---
 
 ## 🎯 Testing Scope & Modules Covered
 
-The testing process focuses on key modules of the Hotel Management System:
-
-* **Authentication & Authorization:** Testing login, logout, password recovery, session handling, and role-based permissions (Admin vs. Front Desk Staff).
-* **Room Management:** Validating room inventory updates, room categorization (Deluxe, Standard, Suite), status updates (*Available, Occupied, Cleaning, Maintenance*), and pricing calculations.
-* **Reservation & Booking:** Testing room availability lookup, single/group reservations, booking modifications, cancellations, and overlapping date validations.
-* **Check-in & Check-out Workflow:** Verifying customer data capture, room key allocation, folio tracking, extra service charges, and checkout settlement.
-* **Billing & Invoicing:** Validating automated price calculation, tax computations, discount vouchers, and invoice PDF/receipt generation.
-
----
-
-## 🧪 Test Artifacts & Deliverables
-
-All documentation and test assets are organized inside the project directory:
-
-* 📋 **Test Plan:** Defines test objectives, scope, test strategy, schedule, environment, and entry/exit criteria.
-* 📝 **Test Scenarios & Test Cases:** Detailed test case specifications including Test ID, Pre-conditions, Steps, Test Data, Expected Results, Actual Results, and Status (Pass/Fail).
-* 🐞 **Bug Reports / Defect Log:** Documented bugs with clear severity, priority levels, reproduction steps, screenshots/evidence, and defect status.
-* 📊 **Test Summary Report:** Metrics on test execution progress, defect density, pass rate, and final release recommendations.
+- Authentication: Registration and Login
+- Room Search: Check-in/check-out dates, adults, children, room availability, and search results
+- Room Details: Room information, images, pricing, and displayed information
+- Booking: Customer information, booking details, input validation, and promotion code
+- Payment: Credit card payment validation and payment flow
+- Booking Cancellation: Booking number validation, cancellation conditions, refund rules, and room status
+- Administrator Functions: Selected administrator workflows based on the project requirements
 
 ---
 
-## 🛠️ Testing Techniques & Tools
+## 🧪 Testing Activities
 
-* **Testing Type:** Functional Testing, UI/UX Testing, Boundary Value Analysis (BVA), Equivalence Partitioning (EP), Integration & Regression Testing.
-* **Documentation & Management:** Microsoft Excel / Google Sheets, Word / Google Docs.
-* **Defect Tracking & Collaboration:** Jira / Trello / GitHub Issues.
-* **Test Environment:** Web Browsers (Google Chrome, Microsoft Edge, Mozilla Firefox).
+- Analyzed SRS and functional requirements
+- Prepared a Test Plan
+- Designed and executed test cases
+- Prepared test data
+- Reported and tracked bugs in Jira
+- Performed Retesting after bug fixes
+- Performed Regression Testing on affected functions
+- Prepared test execution and summary reports
 
 ---
 
-## 📁 Repository Structure
+## 📊 Project Results
 
-```text
-Hotel-Management-Manual-Testing/
+- Team size: 2 members
+- 318 test cases designed and executed by the team
+- 93 bugs identified and documented by the team
+- Personally designed and executed 171 test cases
+- Personally identified and documented 50 bugs
+
+---
+
+## 🧩 Testing Techniques
+
+- Black-box Testing
+- Equivalence Partitioning (EP)
+- Boundary Value Analysis (BVA)
+- Positive Testing
+- Negative Testing
+- Validation Testing
+
+---
+
+## 🛠️ Tools
+
+- Google Chrome
+- Jira
+- Google Sheets
+- Postman
+- MySQL / SQL
+- Microsoft Word
+
+---
+
+## 📁 Project Structure
+
+ST84_LINH_TIEN/
 │
-├── ST84_LINH_TIEN/                   # Project testing files & group deliverables
-│   ├── Test_Plan/                  # Test planning documentation
-│   ├── Test_Cases/                 # Test scenarios & detailed test cases (.xlsx)
-│   ├── Defect_Reports/             # Bug tracking logs and issue reports
-│   └── Test_Summary_Report/        # Final QA summary and metrics
+├── Tester/
+│   ├── Test Cases
+│   └── Bug Reports
 │
-└── README.md                       # Project overview and documentation
+└── README.md
